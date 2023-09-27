@@ -1,0 +1,47 @@
+/**Hoja de estilos*/
+
+.navbar{
+    display: grid;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%; 
+    width: 100%;
+    height: 100px;
+    background-color: #0363ad;
+}
+
+.content{
+    background-color: #edeef2;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+#first-section{
+    width: 100%;
+    height: 700px;
+}
+
+.box-title{
+    grid-column: 2/2;
+}
+
+.category-title{
+    font-family: Roboto,sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #333;
+}
+
+#second-section{
+    width: 100%;
+    height: 400px;
+}
+
+.box-content{
+    grid-column: 2/2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+}
+
